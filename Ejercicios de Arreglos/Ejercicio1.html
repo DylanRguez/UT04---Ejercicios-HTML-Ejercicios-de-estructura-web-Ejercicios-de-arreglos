@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> <!-- Corregido: utf8 -> utf-8 -->
+    <title>Corrige los errores</title>
+</head>
+<body>
+
+    <h1><strong>Corrige los errores</strong></h1>
+    
+    <h2>Índice de contenidos</h2>
+    <ul>
+        <li><a href="#ancla">Enlace 1</a></li> <!-- Corregido: ancla -> #ancla -->
+        <li> <!-- Añadido: li para contener la sublista -->
+            <ul>
+                <li><a href="#">Enlace 2</a></li>
+                <li><a href="#">Enlace 3</a></li> <!-- Corregido: href vacío -> # -->
+            </ul>
+        </li>
+        <li><a href="#">Enlace 4</a></li> <!-- Corregido: </a> estaba mal ubicado -->
+    </ul>
+
+    <p> <!-- Corregido: h2 cambiado a p (no debe haber p dentro de h2) -->
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem at nostrum iure vitae veritatis officiis officia nam aperiam consequatur, dolor in unde beatae labore quibusdam, nihil assumenda eligendi sint!
+        <br><br>
+        Maiores.
+    </p>
+
+    <p id="ancla">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia quia, corporis dicta, eaque itaque.</p> <!-- Corregido: eliminado # del id -->
+
+</body>
+</html>
